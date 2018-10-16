@@ -40,7 +40,7 @@ function calOnEnd() {
 }
 
 rl.on('line', (line) => {
-  const mills = Math.ceil(Number(line) * 1000);
+  const mills = Number(line);
   add(mills);
 });
 
