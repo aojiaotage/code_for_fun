@@ -2,6 +2,6 @@ language: node_js
 node_js:
   - "8"
 install:
-  make install
-test:
-  make test
+  - make install
+script:
+  - make test
